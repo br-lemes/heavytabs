@@ -8,6 +8,17 @@
 	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 </head>
 <body>
-	{{ content }}
+	<nav class="w3-card w3-black w3-container w3-center">
+		<a href="{{ '/' | relative_url }}" class="w3-section w3-button w3-black w3-hover-black w3-bottombar w3-border-blue w3-hover-border-red">
+			<img src="{{ 'heavytabs.png' | relative_url }}" width="320" height="64">
+		</a>
+		<div class="w3-large w3-margin-bottom">{{ site.description }}</div>
+	</nav>
+	<div class="w3-card w3-container w3-content w3-section">
+		{{ content }}
+		<hr>
+		<p class="w3-center">Ícones por <a href="https://www.fatcow.com/free-icons/">FatCow</a>.</p>
+		<p class="w3-center">Breno Ramalho Lemes</p>
+	</div>
 </body>
 </html>
