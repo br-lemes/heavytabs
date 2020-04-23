@@ -1,6 +1,7 @@
 title: Heavy Tabs
 email: breno@br-lemes.net
 description: Tablaturas, backing tracks e vídeos do Hinário Adventista
+baseurl: "/heavytabs"
 
 # Build settings
 markdown: kramdown
