@@ -2,23 +2,61 @@
 layout: default
 ---
 
-<div class="w3-row">
-	<div class="w3-half w3-container">
-		<h2>Tablaturas em PDF</h2>
-		<p>São 610 hinos do Hinário Adventista em formato PDF</p>
-	</div>
-	<div class="w3-half w3-container">
-		<h2>Tablaturas em GPX</h2>
-		<p>São 610 hinos do Hinário Adventista em formato GPX</p>
-	</div>
-</div>
-<div class="w3-row">
-	<div class="w3-half w3-container">
-		<h2>Backing track em MP3</h2>
-		<p>São 22 backing track em MP3 para você treinar ou apresentar com acompanhamento</p>
-	</div>
-	<div class="w3-half w3-container">
-		<h2>Produção de Vídeos</h2>
-		<p>Patrocínio para a produção de vídeos para YouTube.</p>
-	</div>
-</div>
+		<div class="w3-row">
+			<div class="w3-half w3-container">
+				<h2><a href="{{ 'pdf' | relative_url }}">
+					Tablaturas em PDF
+				</a></h2>
+				<p>São 610 hinos do Hinário Adventista em formato PDF</p>
+				<p class="w3-center">
+					<a href="{{ 'pdf' | relative_url }}">
+						<img class="w3-image" src="{{ '070 - Porque Ele vive.pdf.png' | relative_url }}" width="385" height="271">
+					</a>
+				</p>
+				<p class="w3-right-align">
+					<a href="{{ 'pdf' | relative_url }}" class="w3-button w3-light-green w3-hover-green">R$ 5,00</a>
+				</p>
+			</div>
+			<div class="w3-half w3-container">
+				<h2><a href="{{ 'gpx' | relative_url }}">
+					Tablaturas em GPX
+				</a></h2>
+				<p>São 610 hinos do Hinário Adventista em formato GPX</p>
+				<p class="w3-center">
+					<a href="{{ 'gpx' | relative_url }}">
+						<img class="w3-image" src="{{ '070 - Porque Ele vive.gpx.png' | relative_url }}" width="385" height="271">
+					</a>
+				</p>
+				<p class="w3-right-align">
+					<a href="{{ 'gpx' | relative_url }}" class="w3-button w3-light-green w3-hover-green">R$ 15,00</a>
+				</p>
+			</div>
+		</div>
+		<div class="w3-row">
+			<div class="w3-half w3-container">
+				<h2><a href="{{ 'mp3' | relative_url }}">
+					Backing track em MP3
+				</a></h2>
+				<p>São 22 hinos do Hinário Adventista em formato MP3</p>
+				<p class="w3-center">
+					<a href="{{ 'mp3' | relative_url }}">
+						<img class="w3-image" src="{{ '070 - Porque Ele vive.mp3.png' | relative_url }}" width="385" height="271">
+					</a>
+				</p>
+				<p class="w3-right-align">
+					<a href="{{ 'mp3' | relative_url }}" class="w3-button w3-light-green w3-hover-green">R$ 25,00</a>
+				</p>
+			</div>
+			<div class="w3-half w3-container">
+				<h2><a href="{{ 'videos' | relative_url }}">
+					Produção de Vídeos
+				</a></h2>
+				<p>Patrocínio para a produção de vídeos para YouTube.</p>
+				<p class="w3-center">
+					<iframe style="max-width: 100%;" width="385" height="271" src="https://www.youtube.com/embed/bMqjX_eDhZc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</p>
+				<p class="w3-right-align">
+					<a href="{{ 'videos' | relative_url }}" class="w3-button w3-light-green w3-hover-green">Saiba mais</a>
+				</p>
+			</div>
+		</div>
